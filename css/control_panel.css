@@ -1,0 +1,12 @@
+.row {
+    margin-top: 18px;
+}
+
+.jumbotron {
+    padding-top: 12px !important;
+    padding-bottom: 21px !important;
+}
+
+.jumbotron h1 {
+    font-size: 24px !important;
+}

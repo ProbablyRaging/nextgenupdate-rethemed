@@ -1,0 +1,7 @@
+ul .flex {
+    gap: 6px;
+}
+
+ul .flex span:nth-child(2) {
+    font-style: italic;
+}

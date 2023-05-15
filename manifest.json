@@ -1,0 +1,33 @@
+{
+    "name": "NGU ReTheme",
+    "manifest_version": 3,
+    "version": "1.0.0",
+    "description": "NGU ReTheme",
+    "permissions": [
+        "scripting",
+        "tabs"
+    ],
+    "host_permissions": [
+        "https://nextgenupdate.com/*"
+    ],
+    "background": {
+        "service_worker": "js/background.js",
+        "type": "module"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://nextgenupdate.com/*"
+            ],
+            "js": [
+                "js/main.js"
+            ]
+        }
+    ],
+    "icons": {
+        "16": "/assets/icons/icon.png",
+        "32": "/assets/icons/icon.png",
+        "48": "/assets/icons/icon.png",
+        "128": "/assets/icons/icon.png"
+    }
+}
